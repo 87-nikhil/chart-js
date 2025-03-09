@@ -1,0 +1,1023 @@
+{
+	"CombineChart": {
+		"data": {
+			"labels": [
+				"Start",
+				"Income",
+				"Expense 1",
+				"Expense 2",
+				"End"
+			],
+			"datasets": [
+				{
+					"label": "Data 1 (Left)",
+					"type": "bar",
+					"data": [
+						10,
+						-20,
+						10,
+						40,
+						50
+					],
+					"backgroundColor": "rgba(75, 192, 192, 0.2)",
+					"borderColor": "rgba(75, 192, 192, 1)",
+					"borderWidth": 2,
+					"datalabels": {
+						"align": "end",
+						"anchor": "end",
+						"labels": {
+						  "value": {
+							"color": "rgba(75, 192, 192)"
+						  }
+						}
+					}
+				},
+				{
+					"label": "Data 3 (Left)",
+					"type": "bar",
+					"data": [
+						10,
+						20,
+						30,
+						20,
+						50
+					],
+					"backgroundColor": "rgba(99, 52, 192, 0.2)",
+					"borderColor": "rgba(99, 52, 192, 1)",
+					"borderWidth": 2,
+					"datalabels": {
+						"align": "end",
+						"anchor": "end",
+						"labels": {
+						  "value": {
+							"color": "rgba(99, 52, 192)"
+						  }
+						}
+					}
+				},
+				{
+					"label": "Data 2 (Right)",
+					"type": "line",
+					"data": [
+						10,
+						20,
+						-25,
+						15,
+						50
+					],
+					"backgroundColor": "rgba(255, 99, 132, 0.2)",
+					"borderColor": "rgba(255, 99, 132, 1)",
+					"borderWidth": 2,
+					"datalabels": {
+						"align": "end",
+						"anchor": "end",
+						"labels": {
+						  "value": {
+							"color": "rgba(255, 99, 132)"
+						  }
+						}
+					}
+				},
+				{
+					"label": "Data 4 (Right)",
+					"type": "line",
+					"data": [
+						10,
+						20,
+						45,
+						10,
+						40
+					],
+					"backgroundColor": "rgba(45,45, 192, 0.2)",
+					"borderColor": "rgba(45, 45, 192, 1)",
+					"borderWidth": 2,
+					"datalabels": {
+						"align": "end",
+						"anchor": "end",
+						"labels": {
+						  "value": {
+							"color": "rgba(45, 45, 192)"
+						  }
+						}
+					}
+				}
+			]
+		},
+		"options": {
+			"scales": {
+				"y": {
+					"display": false,
+					"beginAtZero": true
+				},
+				"leftYAxis": {
+					"id": "left-y-axis",
+					"type": "linear",
+					"position": "left"
+				},
+				"rightYAxis": {
+					"id": "right-y-axis",
+					"type": "linear",
+					"position": "right"
+				}
+			},
+			"plugins": {
+				"legend": {
+					"display": true
+				},
+				"title": {
+					"display": true,
+					"text": "Waterfall Chart Example"
+				},
+				"datalabels": {
+					"font": {
+					  "weight": "bold"
+					}
+				},
+				"pan": {
+					"enabled": true,
+					"mode": "xy"
+				},
+				"drag": {
+					"enabled": true,
+					"modifierKey": "shift"
+				  },
+				  "overview": {
+					"enabled": true,
+					"scaleX": 0.2
+				  },
+				  "limits": {
+					"xMin": 0.5, 
+					"xMax": 2,   
+					"yMin": 0.5, 
+					"yMax": 2
+				  },
+				"zoom": {
+					"zoom": {
+					  "wheel": {
+						"enabled": true
+					  },
+					  "pinch": {
+						"enabled": true
+					  },
+					  "mode": "xy"
+					}
+				  }
+			}
+		}
+	},
+	"barChart": {
+		"data": {
+			"labels": [
+				"Start",
+				"Income",
+				"Expense 1",
+				"Expense 2",
+				"End"
+			],
+			"datasets": [
+				{
+					"label": "Data 1 (Left)",
+					"type": "bar",
+					"data": [
+						10,
+						20,
+						10,
+						40,
+						50
+					],
+					"backgroundColor": "rgba(75, 192, 192, 0.2)",
+					"borderColor": "rgba(75, 192, 192, 1)",
+					"borderWidth": 2,
+					"datalabels": {
+						"align": "end",
+						"anchor": "end",
+						"labels": {
+						  "value": {
+							"color": "rgba(75, 192, 192)"
+						  }
+						},
+						"font": {
+							"weight": "bold"
+						}
+					}
+				},
+				{
+					"label": "Data 3 (Left)",
+					"type": "bar",
+					"data": [
+						10,
+						20,
+						30,
+						20,
+						50
+					],
+					"backgroundColor": "rgba(45,45, 192, 0.2)",
+					"borderColor": "rgba(45,45, 192, 1)",
+					"borderWidth": 2,
+					"datalabels": {
+						"align": "end",
+						"anchor": "end",
+						"labels": {
+						  "value": {
+							"color": "rgba(45, 45, 192)"
+						  }
+						},
+						"font": {
+							"weight": "bold"
+						}
+					}
+				}
+			]
+		},
+		"options": {
+			"plugins": {
+				"pan": {
+					"enabled": true,
+					"mode": "xy"
+				},
+				"drag": {
+					"enabled": true,
+					"modifierKey": "shift"
+				},
+				"overview": {
+					"enabled": true,
+					"scaleX": 0.2
+				},
+				"limits": {
+					"xMin": 0.5, 
+					"xMax": 2,   
+					"yMin": 0.5, 
+					"yMax": 2
+				},
+				"zoom": {
+					"zoom": {
+					"wheel": {
+						"enabled": true
+					},
+					"pinch": {
+						"enabled": true
+					},
+					"mode": "xy"
+					}
+				}
+			}
+		}
+	},
+	"lineChart": {
+		"data": {
+			"labels": [
+				"Start",
+				"Income",
+				"Expense 1",
+				"Expense 2",
+				"End"
+			],
+			"datasets": [
+				{
+					"label": "Data 1 (Left)",
+					"type": "line",
+					"data": [
+						10,
+						20,
+						10,
+						40,
+						50
+					],
+					"backgroundColor": "rgba(75, 192, 192, 0.2)",
+					"borderColor": "rgba(75, 192, 192, 1)",
+					"borderWidth": 2,
+					"datalabels": {
+						"align": "end",
+						"anchor": "end",
+						"labels": {
+						  "value": {
+							"color": "rgba(75, 192, 192)"
+						  }
+						},
+						"font": {
+							"weight": "bold"
+						}
+					}
+				},
+				{
+					"label": "Data 3 (Left)",
+					"type": "line",
+					"data": [
+						40,
+						20,
+						30,
+						20,
+						50
+					],
+					"backgroundColor": "rgba(45,45, 192, 0.2)",
+					"borderColor": "rgba(45,45, 192, 1)",
+					"borderWidth": 2,
+					"datalabels": {
+						"align": "end",
+						"anchor": "end",
+						"labels": {
+						  "value": {
+							"color": "rgba(45,45, 192)"
+						  }
+						},
+						"font": {
+							"weight": "bold"
+						}
+					}
+				}
+			]
+		},
+		"options": {
+			"plugins": {
+				"pan": {
+					"enabled": true,
+					"mode": "xy"
+				},
+				"drag": {
+					"enabled": true,
+					"modifierKey": "shift"
+				},
+				"overview": {
+					"enabled": true,
+					"scaleX": 0.2
+				},
+				"limits": {
+					"xMin": 0.5, 
+					"xMax": 2,   
+					"yMin": 0.5, 
+					"yMax": 2
+				},
+				"zoom": {
+					"zoom": {
+					"wheel": {
+						"enabled": true
+					},
+					"pinch": {
+						"enabled": true
+					},
+					"mode": "xy"
+					}
+				}
+			}
+		}
+	},
+	"Table": {
+		"data": {
+			"labels": [
+				"Id",
+				"Name",
+				"Email",
+				"Phone"
+			],
+			"datasets": [
+				{
+					"label": "Data 1 (Left)",
+					"type": "bar",
+					"data": [
+						{
+							"id": 1,
+							"name": "Leanne Graham",
+							"email": "sincere@april.biz",
+							"phone": "1-770-736-8031 x56442"
+						},
+						{
+							"id": 2,
+							"name": "Ervin Howell",
+							"email": "shanna@melissa.tv",
+							"phone": "010-692-6593 x09125"
+						},
+						{
+							"id": 3,
+							"name": "Clementine Bauch",
+							"email": "nathan@yesenia.net",
+							"phone": "1-463-123-4447"
+						},
+						{
+							"id": 4,
+							"name": "Patricia Lebsack",
+							"email": "julianne@kory.org",
+							"phone": "493-170-9623 x156"
+						},
+						{
+							"id": 5,
+							"name": "Chelsey Dietrich",
+							"email": "lucio@annie.ca",
+							"phone": "(254)954-1289"
+						},
+						{
+							"id": 6,
+							"name": "Mrs. Dennis",
+							"email": "karley@jasper.info",
+							"phone": "1-477-935-8478 x6430"
+						}
+					]
+				}
+			]
+		}
+	},
+	"pieChart": {
+		"data": {
+			"labels": [
+				"Start",
+				"Income",
+				"Expense 1",
+				"Expense 2",
+				"End"
+			],
+			"datasets": [
+				{
+					"label":"pie Chart",
+					"type": "pie",
+					"data": [
+						10,
+						20,
+						10,
+						40,
+						50
+					],
+					"backgroundColor": [
+						"rgba(255, 99, 132, 1)",
+						"rgba(54, 162, 235, 1)",
+						"rgba(255, 206, 86, 1)",
+						"rgba(75, 192, 192, 1)",
+						"rgba(153, 102, 255, 1)",
+						"rgba(255, 159, 64, 1)"
+					],
+					"borderColor": [
+						"rgba(255, 99, 132, 1)",
+						"rgba(54, 162, 235, 1)",
+						"rgba(255, 206, 86, 1)",
+						"rgba(75, 192, 192, 1)",
+						"rgba(153, 102, 255, 1)",
+						"rgba(255, 159, 64, 1)"
+					],
+					"borderWidth": 2,
+					"datalabels": {
+						"align": "end",
+						"anchor": "end",
+						"labels": {
+						  "value": {
+							"color": [
+							"rgba(255, 99, 132, 1)",
+							"rgba(54, 162, 235, 1)",
+							"rgba(255, 206, 86, 1)",
+							"rgba(75, 192, 192, 1)",
+							"rgba(153, 102, 255, 1)",
+							"rgba(255, 159, 64, 1)"
+							]
+						  }
+						},
+						"font": {
+							"weight": "bold"
+						}
+					}
+				}
+			]
+		}
+	},
+	"areaChart": {
+		"data": {
+			"labels": [
+			"Start",
+			"Income",
+			"Expense 1",
+			"Expense 2",
+			"End"],
+			"datasets": [
+			  {
+				"type": "line",
+				"label": "Dataset 1",
+				"data": [11,32,15,19,45],
+				"backgroundColor": "rgba(45,45, 192, 0.2)",
+				"borderColor": "rgba(45,45, 192, 1)",
+				"fill": true,
+				"datalabels": {
+					"align": "end",
+					"anchor": "end",
+					"labels": {
+					  "value": {
+						"color": "rgba(45,45, 192)"
+					  }
+					},
+					"font": {
+						"weight": "bold"
+					}
+				}
+			  },
+			  {
+				"type": "line",
+				"label": "Dataset 2",
+				"data": [10, 15, 13, 18, 12],
+				"borderColor": "rgba(255, 99, 132, 0.6)",
+				"backgroundColor": "rgba(255, 99, 132, 0.6)",
+				"fill": true,
+				"datalabels": {
+					"align": "end",
+					"anchor": "end",
+					"labels": {
+					  "value": {
+						"color": "rgba(255, 99, 132)"
+					  }
+					},
+					"font": {
+						"weight": "bold"
+					}
+				}
+			  }
+			]
+		  },
+		  "options": {
+			  "plugins": {
+				  "pan": {
+					  "enabled": true,
+					  "mode": "xy"
+				  },
+				  "drag": {
+					  "enabled": true,
+					  "modifierKey": "shift"
+				  },
+				  "overview": {
+					  "enabled": true,
+					  "scaleX": 0.2
+				  },
+				  "limits": {
+					  "xMin": 0.5, 
+					  "xMax": 2,   
+					  "yMin": 0.5, 
+					  "yMax": 2
+				  },
+				  "zoom": {
+					  "zoom": {
+					  "wheel": {
+						  "enabled": true
+					  },
+					  "pinch": {
+						  "enabled": true
+					  },
+					  "mode": "xy"
+					  }
+				  }
+			  }
+		  }
+	},
+	"scatterPlotChart": {
+		"data": {
+			"labels": [
+				"Start",
+				"Income",
+				"Expense 1",
+				"Expense 2",
+				"End"
+			],
+			"datasets": [{
+				"label":"Scatter Plot",
+				"type": "scatter",
+				"data": [
+                    { "x": 10, "y": 20 },
+                    { "x": 15, "y": 30 },
+                    { "x": 25, "y": 40 },
+                    { "x": 35, "y": 50 },
+                    { "x": 45, "y": 60 }
+                ],
+				"backgroundColor": "rgba(255, 99, 132, 0.6)",
+				"pointBackgroundColor": "rgba(75, 192, 192, 1)",
+				"pointerRadius": 5,
+				"pointHoverRadius": 8,
+				"datalabels": {
+					"align": "end",
+					"anchor": "end",
+					"labels": {
+					  "value": {
+						"color": "rgba(75, 192, 192)"
+					  }
+					},
+					"font": {
+						"weight": "bold"
+					}
+				}
+			}]
+		},
+		"options": {
+			"plugins": {
+				"pan": {
+					"enabled": true,
+					"mode": "xy"
+				},
+				"drag": {
+					"enabled": true,
+					"modifierKey": "shift"
+				},
+				"overview": {
+					"enabled": true,
+					"scaleX": 0.2
+				},
+				"limits": {
+					"xMin": 0.5, 
+					"xMax": 2,   
+					"yMin": 0.5, 
+					"yMax": 2
+				},
+				"zoom": {
+					"zoom": {
+					"wheel": {
+						"enabled": true
+					},
+					"pinch": {
+						"enabled": true
+					},
+					"mode": "xy"
+					}
+				}
+			}
+		}
+	},
+	"doughnutChart": {
+		"data": {
+			"labels": [
+			  "Red",
+			  "Blue",
+			  "Yellow"
+			],
+			"datasets": [{
+			  "type": "doughnut",
+			  "label": "My First Dataset",
+			  "data": [300, 50, 100,200,50],
+			  "backgroundColor": [
+				"rgba(255, 99, 132, 1)",
+				"rgba(54, 162, 235, 1)",
+				"rgba(255, 206, 86, 1)",
+				"rgba(75, 192, 192, 1)",
+				"rgba(153, 102, 255, 1)",
+				"rgba(255, 159, 64, 1)"
+			  ],
+			  "hoverOffset": 4,
+			  "datalabels": {
+				"align": "end",
+				"anchor": "end",
+				"labels": {
+				  "value": {
+					"color": [
+						"rgba(255, 99, 132, 1)",
+						"rgba(54, 162, 235, 1)",
+						"rgba(255, 206, 86, 1)",
+						"rgba(75, 192, 192, 1)",
+						"rgba(153, 102, 255, 1)",
+						"rgba(255, 159, 64, 1)"
+					  ]
+				  }
+				},
+				"font": {
+					"weight": "bold"
+				}
+			}
+			}]
+		  }
+	},
+	"stackedBarChart": {
+		"data" : {
+			"labels": "labels",
+			"datasets": [
+				{
+                    "label": "Dataset 1",
+                    "data": [10, 20, 15, 25, 30],
+					"type": "bar",
+                    "backgroundColor": "rgba(255, 99, 132, 0.6)",
+					"datalabels": {
+						"align": "center",
+						"anchor": "center",
+						"labels": {
+						  "value": {
+							"color": "rgba(255, 99, 132)"
+						  }
+						},
+						"font": {
+							"weight": "bold"
+						}
+					}
+                },
+                {
+                    "label": "Dataset 2",
+                    "data": [5, 15, 10, 20, 25],
+					"type": "bar",
+                    "backgroundColor": "rgba(54, 162, 235, 0.6)",
+					"datalabels": {
+						"align": "center",
+						"anchor": "center",
+						"labels": {
+						  "value": {
+							"color": "rgba(54, 162, 235)"
+						  }
+						},
+						"font": {
+							"weight": "bold"
+						}
+					}
+                },
+                {
+                    "label": "Dataset 3",
+                    "data": [10, 5, 20, 10, 15],
+					"type": "bar",
+                    "backgroundColor": "rgba(255, 206, 86, 0.6)",
+					"datalabels": {
+						"align": "center",
+						"anchor": "center",
+						"labels": {
+						  "value": {
+							"color": "rgba(255, 206, 86)"
+						  }
+						},
+						"font": {
+							"weight": "bold"
+						}
+					}
+                },
+                {
+                    "label": "Dataset 4",
+                    "data": [5, 10, 5, 10, 20],
+					"type": "bar",
+                    "backgroundColor": "rgba(75, 192, 192, 0.6)",
+					"datalabels": {
+						"align": "center",
+						"anchor": "center",
+						"labels": {
+						  "value": {
+							"color": "rgba(75, 192, 192)"
+						  }
+						},
+						"font": {
+							"weight": "bold"
+						}
+					}
+                },
+                {
+                    "label": "Dataset 5",
+                    "data": [15, 10, 15, 15, 10],
+					"type": "bar",
+                    "backgroundColor": "rgba(153, 102, 255, 0.6)",
+					"datalabels": {
+						"align": "center",
+						"anchor": "center",
+						"labels": {
+						  "value": {
+							"color": "rgba(153, 102, 255)"
+						  }
+						},
+						"font": {
+							"weight": "bold"
+						}
+					}
+                }
+			]
+		  },
+		  "options": {
+			  "plugins": {
+				  "pan": {
+					  "enabled": true,
+					  "mode": "xy"
+				  },
+				  "drag": {
+					  "enabled": true,
+					  "modifierKey": "shift"
+				  },
+				  "overview": {
+					  "enabled": true,
+					  "scaleX": 0.2
+				  },
+				  "limits": {
+					  "xMin": 0.5, 
+					  "xMax": 2,   
+					  "yMin": 0.5, 
+					  "yMax": 2
+				  },
+				  "zoom": {
+					  "zoom": {
+					  "wheel": {
+						  "enabled": true
+					  },
+					  "pinch": {
+						  "enabled": true
+					  },
+					  "mode": "xy"
+					  }
+				  }
+			  }
+		  }
+	},
+	"polarAreaChart": {
+		"data": {
+			"labels": [
+				"Start",
+				"Income",
+				"Expense 1",
+				"Expense 2",
+				"End"
+			],
+			"datasets": [{
+				"label": "polar area chart",
+				"type": "polarArea",
+				"data": [10, 20, 10, 40, 50],
+				"backgroundColor": [
+					"rgba(255, 99, 132, 0.6)",
+					"rgba(54, 162, 235, 0.6)",
+					"rgba(255, 206, 86, 0.6)",
+					"rgba(75, 192, 192, 0.6)",
+					"rgba(153, 102, 255, 0.6)"
+				],
+				"borderWidth": 2,
+				"borderColor": "white",
+				"hoverBackgroundColor": "rgba(0, 0, 0, 0.8)",
+				"datalabels": {
+					"align": "end",
+					"anchor": "end",
+					"labels": {
+					  "value": {
+						"color": [
+							"rgba(255, 99, 132)",
+							"rgba(54, 162, 235)",
+							"rgba(255, 206, 86)",
+							"rgba(75, 192, 192)",
+							"rgba(153, 102, 255)"
+						]
+					  }
+					},
+					"font": {
+						"weight": "bold"
+					}
+				}
+			}]
+		}
+	},
+	"multipleLineChart": {
+		"data": {
+			"labels": "Multiple Line Chart",
+			"datasets": [
+				 {
+					"label": "Dataset 1",
+					"type": "line",
+					"data": [10, 15, 13, 18, 12],
+					"backgroundColor": "rgba(75, 192, 192, 0.6)",
+					"borderColor": "rgba(75, 192, 192, 1)",
+					"yAxisID": "y",
+					"datalabels": {
+						"align": "end",
+						"anchor": "end",
+						"labels": {
+						  "value": {
+							"color": "rgba(75, 192, 192)"
+						  }
+						},
+						"font": {
+							"weight": "bold"
+						}
+					}
+				},
+				{
+					"label": "Dataset 2",
+					"type": "line",
+					"data": [5, 15, 10, 20, 25],
+					"backgroundColor": "rgba(54, 162, 235, 0.6)",
+					"borderColor": "rgba(54, 162, 235, 1)",
+					"yAxisID": "y",
+					"datalabels": {
+						"align": "end",
+						"anchor": "end",
+						"labels": {
+						  "value": {
+							"color": "rgba(54, 162, 235)"
+						  }
+						},
+						"font": {
+							"weight": "bold"
+						}
+					}
+				},
+				{
+					"label": "Dataset 3",
+					"type": "line",
+					"data": [20, 25, 30, 15, 10],
+					"backgroundColor": "rgba(255, 99, 132, 0.6)",
+					"borderColor": "rgba(255, 99, 132, 1)",
+					"yAxisID": "y1",
+					"datalabels": {
+						"align": "end",
+						"anchor": "end",
+						"labels": {
+						  "value": {
+							"color": "rgba(255, 99, 132)"
+						  }
+						},
+						"font": {
+							"weight": "bold"
+						}
+					}
+				},
+				{
+					"label": "Dataset 4",
+					"type": "line",
+					"data": [12, 18, 10, 15, 20],
+					"backgroundColor": "rgba(153, 102, 255, 0.6)",
+					"borderColor": "rgba(153, 102, 255, 1)",
+					"yAxisID": "y1",
+					"datalabels": {
+						"align": "end",
+						"anchor": "end",
+						"labels": {
+						  "value": {
+							"color": "rgba(153, 102, 255)"
+						  }
+						},
+						"font": {
+							"weight": "bold"
+						}
+					}
+				},
+				{
+					"label": "Dataset 5",
+					"type": "line",
+					"data": [30, 20, 10, 25, 15],
+					"backgroundColor": "rgba(255, 206, 86, 0.6)",
+					"borderColor": "rgba(255, 206, 86, 1)",
+					"yAxisID": "y",
+					"datalabels": {
+						"align": "end",
+						"anchor": "end",
+						"labels": {
+						  "value": {
+							"color": "rgba(255, 206, 86)"
+						  }
+						},
+						"font": {
+							"weight": "bold"
+						}
+					}
+				}
+			]
+		},
+		"options": {
+			"plugins": {
+				"pan": {
+					"enabled": true,
+					"mode": "xy"
+				},
+				"drag": {
+					"enabled": true,
+					"modifierKey": "shift"
+				},
+				"overview": {
+					"enabled": true,
+					"scaleX": 0.2
+				},
+				"limits": {
+					"xMin": 0.5, 
+					"xMax": 2,   
+					"yMin": 0.5, 
+					"yMax": 2
+				},
+				"zoom": {
+					"zoom": {
+					"wheel": {
+						"enabled": true
+					},
+					"pinch": {
+						"enabled": true
+					},
+					"mode": "xy"
+					}
+				}
+			}
+		}
+	},
+	"WaterFallChart": {
+		"data": {
+			"labels": [
+				"Budget",
+				"Utility",
+				"Inverter",
+				"Curtail",
+				"CB/Tracker",
+				"Soiling",
+				"Others",
+				"Actual"
+			],
+			"datasets": [
+				{
+					"label": "",
+					"type": "bar",
+					"data": [
+						[0,100],
+						[20,10],
+						[10,5],
+						[30,10],
+						[6,3],
+						[10,2],
+						[5,8],
+						[0,84]
+					],
+					"backgroundColor": ["rgba(41,39, 39, 0.80)", "rgba(215,0, 0, 0.80)", "rgba(215,0, 0, 0.80)", "rgba(215,0, 0, 0.80)", "rgba(215,0, 0, 0.80)", "rgba(215,0, 0, 0.80)", "rgba(56, 117, 0, 1)", "rgba(0,0, 255, 0.80)"],
+					"borderColor": ["rgba(41,39, 39, 0.80)", "rgba(215,0, 0, 0.80)", "rgba(215,0, 0, 0.80)", "rgba(215,0, 0, 0.80)", "rgba(215,0, 0, 0.80)", "rgba(215,0, 0, 0.80)", "rgba(56, 117, 0, 1)", "rgba(0,0, 255, 0.80)"],
+					"borderWidth": 2
+				}
+			]
+		}
+	}
+}
